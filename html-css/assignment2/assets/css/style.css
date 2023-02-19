@@ -1,0 +1,194 @@
+
+/*Header Section*/
+header{
+    display: flex;
+    width: 100vw;
+    height: 4vh;
+    justify-content: space-between;
+}
+header#icon{
+    margin-left: 1rem;
+}
+header>p{
+    margin-right: 2.5rem;
+    color: red;
+    font-family: 'Secular One', sans-serif;
+}
+header, nav{
+    margin-bottom: 0.5rem;
+}
+
+/*Navigation Menu*/
+nav{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+ul>li>a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+#firstbutton{
+    background-color: #bd8600;
+    padding: 0.5rem;
+    color: white;
+}
+
+/*Hero Section*/
+div.container2{
+    background-color: #f3f4f6;
+    width: 100vw;
+    height: 45vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+figure{
+    flex-grow: 1;
+    width: 50vw;
+}
+#banner{
+    max-width: 120%;
+    height: auto;
+}
+figure~section{
+    width: 50vw;
+    margin-left: 10vw;
+}
+h1+p{
+    margin-bottom: 2rem;
+}
+div h1{
+    font-size: 4vmax;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
+}
+div p{
+    font-size: 1vmax;
+    padding-right: 2rem;
+}
+.cta{
+    text-decoration: none;
+    background-color: #bd8600;
+    font-size: 1vmax;
+    color: white;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #bd8600;
+    border-radius: 1.5rem;
+    box-shadow: 0.2rem 0.2rem #f2d675;
+}
+
+/*Feature Section*/
+section.container3>div{
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4rem 0 6rem 0;
+}
+section.container3>h2{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.7vmax;
+    font-family: 'Fjalla One', sans-serif;
+}
+.item{
+    width: 25vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.item>p{
+    padding: 0 4rem;
+    font-size: 0.8vmax;
+}
+.item>h3{
+    padding-bottom: 1rem;
+    font-size: 1.5vmax;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.item>i{
+    color: #bd8600;
+    padding-bottom: 1rem;
+}
+
+
+/*Testimonial Section*/
+
+.container4>h2{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.5vmax;
+    font-family: 'Fjalla One', sans-serif;
+}
+.customer>h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vmax;
+    color: #bd8600;
+}
+
+.container4>div{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    width: 32vmax;
+    height: 32vmax;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #bd8600;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem #f2d675;
+}
+.customer>img{
+    max-width: 60%;
+    border-radius: 50%;
+    height: auto;
+    padding: 2rem 0 1.5rem 0;
+}
+.customer>h4{
+    padding-bottom: 1rem;
+}
+.customer>p{
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 0.8vmax;
+}
+
+/*Footer*/
+footer{
+    margin-top: 10rem;
+    width: 100vw;
+    height: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+

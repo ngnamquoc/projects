@@ -1,0 +1,288 @@
+/*Section 1*/
+*{
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+}
+hr {
+        width: 50%;
+        color: black;
+}
+#sec1, #sec2, #sec3, #sec4, #sec5, #sec6{
+        margin-bottom: 6rem;
+}
+#sec1 {
+        display: grid;
+        width: 100vw;
+        height: 90%;
+        margin: 0 auto;
+        min-width: 838px;
+}
+header {
+        background-color: darkgray;
+        background-image: url("../img/top-view-assortment-delicious-poke-bowl.jpg");
+        background-size: cover;
+        background-blend-mode: overlay;
+        height: 50vh;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+}
+.logo {
+        margin: 0 10vw 0 0;
+}
+#logo {
+        height: 20vh;
+}
+header h1 {
+        font-family: 'Lobster', cursive;
+        font-size: 600%;
+        color: black;
+        margin: 5vh 5vw;
+}
+nav {
+        width: 100%;
+        min-width: 838px;
+        min-height: 52px;
+}
+#menubar {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.menu-list {
+        list-style-type: none;
+        margin: 0;
+}
+.menu-list .menu-button {
+        min-width: 5em;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+}
+#menubar .menu-button a {
+        text-decoration: none;
+        color: #FCE7CF;
+        text-align: center;
+        padding: .7em 1em;
+        margin: 0;
+}
+.menu-button a:hover, .menu-button a:focus {
+        background-color: #56a8b4;
+}
+h1 {
+        font-family: 'Oxygen', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 200%;
+        color: #56a8b4;
+        text-shadow: 2px 2px white;
+}
+
+/*Section 2*/
+#app {
+        width: 20vmax;
+        height: 12vmax;
+        background-image: url("../img/abillion-bMTl6uFMONg-unsplash.jpg");
+        background-size: cover;
+        margin-right: 5vw;
+}
+#app:hover {
+        width: 20vmax;
+        height: 12vmax;
+        background-image: url("../img/max-mota-N6BTNbaKZMo-unsplash.jpg");
+        background-size: cover;
+}
+.flexContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80vw;
+}
+.middle {
+        margin: 5vh 5vw;
+}
+.story {
+        margin: 5vh 5vw;
+        text-align: right;
+}
+.aboutImage {
+        flex-basis: 0;
+}
+
+/*Section 3*/
+#img {
+        padding: 0 .25rem;
+}
+#img>img {
+        margin-left: 5vw;
+}
+
+#sec3 p, #sec3 h2 {
+        margin: 5vh 5vw;
+        text-align: left;
+}
+#des {
+        margin: 1rem;
+}
+
+/*Section 4*/
+#heading {
+        margin: 1rem;
+}
+#resp {
+        margin: .25rem;
+}
+
+table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 60vw;
+}
+th,td {
+        padding: 15px;
+}
+thead {
+        background-color: lightgrey;
+}
+table {
+        border-spacing: 30px;
+}
+#sec4, #heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#sec4>p {
+        justify-content: left;
+}
+td {
+        text-align: center;
+}
+th {
+        vertical-align: center;
+}
+/*Section 5*/
+
+#sec5 {
+        font-family: 'Open Sans', sans-serif;
+}
+#sec5>h1{
+        font-family: 'Oxygen', sans-serif;
+}
+#sec5>p {
+        width: 80vw;
+        text-align: center;
+        margin: 2rem auto;
+}
+table, tr, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+}
+.nested {
+        width: 80vw;
+        height: 15vh;
+        margin: 1rem auto;
+}
+.nested td {
+        text-align: center;
+}
+.intable1, .intable2 {
+        width: 30vw;
+        margin: 0 auto;
+}
+.intable1 td, .intable2 td {
+        text-align: left;
+}
+.intable2 {
+        margin-top: 2rem;
+}
+.column1 {
+        width: 2vw;
+}
+.cap2{
+        caption-side: bottom;
+}
+.cap1, .cap2 {
+        font-weight: bold;
+        font-size: 130%;
+        margin: 1rem;
+}
+
+/*Section 6*/
+#sec6 {
+        min-width: 1534px;
+        font-family: 'Open Sans', sans-serif;
+        border: 2px solid black;
+        padding: 1rem;
+        display: flex;
+        width: 80vw;
+        margin: 1rem auto;
+}
+#sec6 h2 {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 200%;
+        color: #56a8b4;
+        text-shadow: 2px 2px white;
+}
+fieldset {
+        width: 78vw;
+}
+.box {
+        display: flex;
+        justify-content: flex-start;
+        padding: 1rem 0;
+}
+.box label {
+        flex-basis: 9rem;
+}
+#firstname, #address {
+        margin-right: 20rem;
+}
+#province {
+        margin-right: 33.8rem;
+}
+.agree, .myButtons {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+}
+.job_posting_text {
+        padding-right: 1rem;
+}
+.myButtons {
+        display: grid;
+        grid-template: 30px / 100px 100px;
+        grid-gap: 40px;
+}
+.text_right {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.box input:required{
+    border: 1px solid red;
+}
+.box input:invalid{
+    background-color: lightgrey;
+}
+.box input:valid:not([type="file"]){
+    border: 2px solid green;
+}
+
+/*Footer*/
+footer.resources ul, footer.resources a.member_task {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+
+}
+
+
