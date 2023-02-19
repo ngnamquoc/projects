@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_Console.Flight">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAAAAAAAAEACAAAAAAAAAAAAAAAAIAAAAACCA=</HashCode>
+      <FileName>Flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.Booking">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.Customer">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAJgAAAAAAEAAkAEAAAAAAAAAAAAAAQEAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.FlightManager">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FlightManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.BookingManager">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCA=</HashCode>
+      <FileName>BookingManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.CustomerManager">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAABAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Console.Coordinator">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Coordinator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
