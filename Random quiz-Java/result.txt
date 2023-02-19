@@ -1,0 +1,8 @@
+test BBABD 0
+asd ACCDC 25
+test ABBBA 25
+asd BACCB 0
+asd BCBCC 0
+asd CBCBB 0
+asd BBCBA 25
+test ABBCC 50

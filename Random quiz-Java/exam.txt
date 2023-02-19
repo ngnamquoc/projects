@@ -1,0 +1,20 @@
+Who invented Java Programming?,Guido van Rossum,James Gosling,Dennis Ritchie,Bjarne Stroustrup,B
+Which component is used to compile - debug and execute the java programs?,JRE,JIT,JDK,JVM,D
+What is the extension of java code files?,.js,.txt,.class,.java,D
+Which of the following is not an OOPS concept in Java?,Polymorphism,Inheritance,Compilation,Encapsulation,C
+Which of these keywords is used to define interfaces in Java?,intf,Intf,interface,Interface,C
+Which one of the following is not an access modifier?,Protected,Void,Public,Private,B
+What is the extension of compiled java classes?,.txt,.js,.class,.java,C
+Which component is responsible to run java program?,JVM,JDK,JIT,JRE,D
+Which of the below is invalid identifier with the main method?,public,static,private,final,C
+Which of these keywords is used to make a class?,class,struct,int,none of the mentioned,A
+Which of the following is a method having same name as that of it’s class?,finalize,delete,class,constructor,D
+Which method can be defined only once in a program?,main method,finalize method,static method,private method,A
+What is the return type of a method that does not return any value?,int,float,void,double,C
+How many copies of static and class variables are created when 10 objects are created of a class?,1 and 10,10 and 10,10 and 1,1 and 1,A
+Which company owns Java at present?,IBM,Microsoft,Sun Microsystems,Oracle,D
+What does JVM stands for?,Java Variable Machine,Java Virtual Machine,Java Virtual Mechanism,None of the above,B
+Every statement in Java language should end with a?,Dot or Period,Comma,Semicolon,Colon,C
+Which among the following is not a Data Type in Java?,short,int,long double,double,C
+What is the size of a SHORT integer in Java?,1 byte,2 bytes,4 bytes,8 bytes,B
+What is the size of an INT integer in Java?,2 bytes,4 bytes,6 bytes,8 bytes,B
